@@ -26,7 +26,7 @@ if Config.Status then
                 if IsPedSwimmingUnderWater(cache.ped) then
                     oxygen = math.floor(GetPlayerUnderwaterTimeRemaining(PlayerId()) * 10)
                 else
-                    oxygen = 'not_swimming';
+                    oxygen = 'not_swimming'
                 end
 
                 values.oxygen = oxygen or 'not_swimming'
