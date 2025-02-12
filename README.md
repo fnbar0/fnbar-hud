@@ -9,6 +9,7 @@
 - `/hudsettings` This command allows players to customize their HUD. Players can toggle the visibility of the HUD and adjust its colors to their preference.
 - Well optimized.
 - Configurable.
+- Contains stream file, that removes default GTA HUD under the radar.
 
 ## Dependencies
 - [ox_lib](https://github.com/overextended/ox_lib)
