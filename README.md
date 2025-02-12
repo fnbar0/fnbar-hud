@@ -6,7 +6,8 @@
 
 ## Features
 - Status hud for health, hunger, thirst, oxygen and voice range.
-- /hudsettings command that allows players to change visibility of the HUD, and it's colors.
+- `/hudsettings` Command
+  This command allows players to customize their HUD. Players can toggle the visibility of the HUD and adjust its colors to their preference.
 - Well optimized.
 - Configurable.
 
