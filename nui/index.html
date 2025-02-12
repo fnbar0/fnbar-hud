@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>fnbar goat</title>
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.7.2/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="hud-wrapper">
+        <div id="hud">
+            <div id="health" class="hud-component">
+                <i class="fa-regular fa-heart"></i>
+            </div>
+            <div id="oxygen" class="hud-component">
+                <i class="fa-regular fa-lungs"></i>
+            </div>
+            <div id="armor" class="hud-component">
+                <i class="fa-regular fa-shield"></i>
+            </div>
+            <div id="food" class="hud-component">
+                <i class="fa-regular fa-fork-knife"></i>
+            </div>
+            <div id="drink" class="hud-component">
+                <i class="fa-regular fa-droplet"></i>
+            </div>
+            <div id="voice" class="hud-component">
+                <i class="fa-regular fa-microphone"></i>
+            </div>
+        </div>
+        <div id="veh-hud">
+            <div id="minimap-border"></div>
+            <div id="digits">
+                <span id="digit1" class="speedometer-digit inactive">0</span>
+                <span id="digit2" class="speedometer-digit inactive">0</span>
+                <span id="digit3" class="speedometer-digit inactive">0</span>
+            </div>
+            <span id="unit">km/h</span>
+        </div>
+    </div>
+    <div id="hud-settings">
+        <h1>Hud Settings</h1>
+        <i class="fa-solid fa-xmark"></i>
+        <div id="hud-settings-toggle" class="hud-setting">
+            <label for="hud-toggle">Toggle Hud</label>
+            <input type="checkbox" id="hud-toggle">
+        </div>
+        <div id="hud-settings-rainbow" class="hud-setting">
+            <label for="rainbow-toggle">Rainbow Mode</label>
+            <input type="checkbox" id="rainbow-toggle">
+        </div>
+        <div id="hud-settings-maincolor" class="hud-setting">
+            <label for="hud-maincolor">Main Color</label>
+            <input type="color" id="hud-maincolor">
+        </div>
+        <div id="hud-settings-secondarycolor" class="hud-setting">
+            <label for="hud-secondarycolor">Secondary Color</label>
+            <input type="color" id="hud-secondarycolor">
+        </div>  
+        <div id="hud-settings-backgroundcolor" class="hud-setting">
+            <label for="hud-backgroundcolor">Background Color</label>
+            <input type="color" id="hud-backgroundcolor">
+        </div>  
+        <div id="hud-settings-reset" class="hud-setting">
+            <label for="hud-reset">Reset Colors</label>
+            <button id="hud-reset">Reset</button>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
