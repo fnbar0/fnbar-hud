@@ -19,4 +19,8 @@
 * Put the `fnbar-hud` folder in your resources directory
 * Add `ensure fnbar-hud` to your server config
 
+## Usage
+* After you add resource to your server, you can configure it in `config.lua`.
+* Export to toggle hud: exports['fnbar-hud']:toggleHud(state)
+
 ## [Preview](https://www.youtube.com/watch?v=duRaJLulq1w)
