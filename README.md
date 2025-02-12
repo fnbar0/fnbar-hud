@@ -1,4 +1,4 @@
-## fnbar-hud
+# fnbar-hud
 > [!NOTE]  
 > This HUD is compatible with [fnbar-notify](https://github.com/fnbar0/fnbar-notify) and [fnbar-scoreboard](https://github.com/fnbar0/fnbar-scoreboard), meaning any color changes made by the user in the settings will also apply to these resources.
 
