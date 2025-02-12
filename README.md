@@ -1,8 +1,14 @@
 ## fnbar-hud
-- FiveM HUD for status, voice and vehicle made for ESX framework.
-
 > [!NOTE]  
-> This HUD is compatible with [fnbar-notify](https://github.com/fnbar0/fnbar-hud) and [fnbar-scoreboard](https://github.com/fnbar0/fnbar-scoreboard), which means HUD colors changed by user will apply to both these resources aswell.
+> This HUD is compatible with [fnbar-notify](https://github.com/fnbar0/fnbar-hud) and [fnbar-scoreboard](https://github.com/fnbar0/fnbar-scoreboard), which means HUD colors changed by user in settings will apply to both these resources aswell.
+
+### FiveM HUD for status, voice and vehicle made for ESX framework.
+
+## Features
+- Status hud for health, hunger, thirst, oxygen and voice range.
+- /hudsettings command that allows players to change visibility of the HUD, and it's colors.
+- Well optimized.
+- Configurable.
 
 ## Dependencies
 - [ox_lib](https://github.com/overextended/ox_lib)
