@@ -17,7 +17,7 @@ window.addEventListener('message', function (event) {
             }
             
             if (data.value.armor !== undefined) {
-                if (data.value.armor <= 0) $('#armor').css('display', 'none');
+                (data.value.armor <= 0) ? $('#armor').css('display', 'none') : $('#armor').css('display', 'block');
                 $('#armor').css("--progress", `${data.value.armor}%`);
             }
             
